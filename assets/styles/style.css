@@ -356,5 +356,5 @@ footer a {
 }
 
 
-.git {height: 1vh;}
-.link {height: 1vh;}
+svg {height: 4vh; width: 5vw;}
+ .git {display: flex;flex-direction: row;}
