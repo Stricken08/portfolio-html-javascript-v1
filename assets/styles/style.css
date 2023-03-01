@@ -358,3 +358,17 @@ footer a {
 
 svg {height: 4vh; width: 5vw;}
  .git {display: flex;flex-direction: row;}
+ .school {position: absolute;height: 70vh;width: 40vw; top: 10VH;left: 30Vw; background: white; border:solid 3em ;display: none;}
+
+ /* Formation pop up */
+  img .logoForm{height: 2Vh!important;}
+ .titreForm img {height: 10%!important;width: 20px!important;}
+ .form img {height: 2Vh!important;}
+ .navBtn{ cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  color: #fefeff;
+  transition: 0.1s linear;
+  font-size: calc(0.8rem + 0.8vw);border: none  ; font-family: "font-reg", serif;
+  background: #000101;
+  color: #fefeff;border-bottom:1px solid white;}
