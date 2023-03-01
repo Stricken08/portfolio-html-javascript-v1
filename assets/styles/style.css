@@ -358,12 +358,12 @@ footer a {
 
 svg {height: 4vh; width: 5vw;}
  .git {display: flex;flex-direction: row;}
- .school {position: absolute;height: 70vh;width: 40vw; top: 10VH;left: 30Vw; background: white; border:solid 3em ;display: none;}
+ .school {position: absolute;height: 70vh;width: 40vw; top: 10VH;left: 30Vw; background: white; border:solid 3em ;display: none;flex-direction: column; border-radius: 2em;}
 
  /* Formation pop up */
-  img .logoForm{height: 2Vh!important;}
- .titreForm img {height: 10%!important;width: 20px!important;}
- .form img {height: 2Vh!important;}
+#logoForm {height: 20%;}
+ #titreForm {height: 20%;}
+ #form {height: 60%; top: 40%; position: absolute;}
  .navBtn{ cursor: pointer;
   position: relative;
   text-decoration: none;

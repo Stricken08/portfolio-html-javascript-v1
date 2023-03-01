@@ -1,3 +1,16 @@
+// div formation
+ const navBtn = document.querySelector('.navBtn');
+const school = document.querySelector('.school');
+const closeBtn = document.querySelector('.closeBtn');
+
+navBtn.addEventListener('click', function() {
+  school.style.display = 'flex';
+});
+
+closeBtn.addEventListener('click', function() {
+  school.style.display = 'none';
+});
+//////////////////
 const scroll = new LocomotiveScroll({
   el: document.querySelector("[data-scroll-container]"),
   smooth: true,
