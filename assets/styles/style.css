@@ -202,6 +202,7 @@ header h2 {
 .projects-container {
   margin-top: 100px;
 }
+.projects-container img {height: 70vh;}
 .project {
   position: relative;
   width: 60vw;
