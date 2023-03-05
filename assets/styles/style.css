@@ -360,11 +360,16 @@ footer a {
 svg {height: 4vh; width: 5vw;}
  .git {display: flex;flex-direction: row;}
  .school {position: absolute;height: 70vh;width: 40vw; top: 10VH;left: 30Vw; background: white; border:solid 1em rgb(127, 219, 190) ;display: none;flex-direction: column; border-radius: 2em;}
-
+.school button{background-color: #f44336;font-size: 16px;border-radius: 8px;-webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;width: 4vw;color: white;font-weight: bold;}
+  .school button:hover {
+    background-color: white; /* Green */
+    color: red;
+}
  /* Formation pop up */
-#logoForm {height: 20%;}
- #titreForm {height: 20%;}
- #form {height: 60%; top: 40%; position: absolute;}
+#logoForm {height: 20vh;}
+ #titreForm {height: 10vh;}
+ #form {height: 30VH; top: 40vh;left: 10vw; position: absolute;}
  .navBtn{ cursor: pointer;
   position: relative;
   text-decoration: none;
